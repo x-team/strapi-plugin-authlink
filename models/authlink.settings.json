@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authlink_authlink",
+  "info": {
+    "name": "authlink",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "token": {
+      "type": "string"
+    },
+    "usedAt": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@x-team/strapi-plugin-authlink",
+  "version": "1.0.0",
+  "description": "Link two strapi instances.",
+  "strapi": {
+    "name": "authlink",
+    "icon": "plug",
+    "description": "Link two strapi instances."
+  },
+  "dependencies": {
+    "axios": "^0.22.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "author": {
+    "name": "X-Team",
+    "email": "contact@x-team.com",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

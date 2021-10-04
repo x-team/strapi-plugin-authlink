@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/:token",
+      "handler": "authlink.auth",
+      "config": {
+        "policies": []
+      }
+    },
+
+    {
+      "method": "POST",
+      "path": "/",
+      "handler": "authlink.create",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
