@@ -1,5 +1,5 @@
 {
-  "name": "@x-team/strapi-plugin-authlink",
+  "name": "strapi-plugin-authlink",
   "version": "1.0.0",
   "description": "Link two strapi instances.",
   "strapi": {
